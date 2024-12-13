@@ -71,20 +71,37 @@ Which podcast category (business or technology) offers better potential for a ne
 
 ### Prerequisites
 ```python
-numpy
-pandas
-sqlite3
-seaborn
-plotly
-matplotlib
-IPython
+ipython==8.12.3
+numpy==2.2.0
+pandas==2.2.3
+scipy==1.14.1
+seaborn==0.13.2
+matplotlib==3.8.4
+scipy==1.14.1
+statsmodels==0.14.4
 ```
 
 ### Installation & Usage
-[PLACEHOLDER]
+```bash
+git clone git@github.com:PJURC-data-analysis/podcasts-reviews.git
+cd tech-mental-health
+pip install -r requirements.txt
+jupyter notebook "Tech Mental Health.ipynb"
+```
+
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/thoughtvector/podcastreviews) unzip it to the working directory, `archive` folder.
+
+The `podcasts.pbix` report can be opened through Microsoft Power BI.
 
 ## Project Structure
-[PLACEHOLDER]
+podcasts-reviews/
+│   README.md
+│   requirements.txt
+│   Podcasts Reviews.ipynb
+|   utils.py
+|   podcasts.pbix
+└── archive/
+    └── database.sqlite
 
 ## Strategic Recommendations
 1. **Category Selection**
