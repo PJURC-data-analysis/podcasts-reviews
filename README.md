@@ -94,6 +94,7 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/thoughtvector
 The `podcasts.pbix` report can be opened through Microsoft Power BI.
 
 ## Project Structure
+```
 podcasts-reviews/
 │   README.md
 │   requirements.txt
@@ -102,6 +103,7 @@ podcasts-reviews/
 |   podcasts.pbix
 └── archive/
     └── database.sqlite
+```
 
 ## Strategic Recommendations
 1. **Category Selection**
